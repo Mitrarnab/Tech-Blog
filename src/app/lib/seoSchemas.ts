@@ -41,7 +41,7 @@ export const articleSchema = (post: BlogPost) => ({
   },
   author: {
     "@type": "Person",
-    name: "Tech Insights Team",
+    name: "Arnab",
   },
   publisher: {
     "@type": "Organization",

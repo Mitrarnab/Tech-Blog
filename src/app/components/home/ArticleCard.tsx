@@ -36,6 +36,7 @@ const ArticleCard = memo(function ArticleCard({ post, onClick }: Props) {
           src={post.photo_url}
           alt={`Cover image for ${post.title}`}
           fill
+          loading="lazy"
           className="object-cover transition-transform duration-700 ease-out hover:scale-110"
           sizes="(max-width: 768px) 100vw, 400px"
         />

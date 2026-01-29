@@ -44,8 +44,8 @@ export default function ArticleModal({ post, onClose }: Props) {
 
       <div
         className={`flex flex-col w-full max-w-3xl max-h-[90vh] rounded-2xl overflow-hidden transition-colors ${darkMode
-            ? "bg-gray-900 text-gray-200 shadow-[0_0_40px_rgba(0,0,0,0.7)]"
-            : "bg-white text-gray-900 shadow-xl"
+          ? "bg-gray-900 text-gray-200 shadow-[0_0_40px_rgba(0,0,0,0.7)]"
+          : "bg-white text-gray-900 shadow-xl"
           }`}
         role="dialog"
         aria-modal="true"
@@ -64,8 +64,8 @@ export default function ArticleModal({ post, onClose }: Props) {
             onClick={onClose}
             aria-label="Close article"
             className={`h-9 w-9 shrink-0 rounded-full flex items-center justify-center transition-colors ${darkMode
-                ? "bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white"
-                : "bg-gray-100 text-gray-600 hover:bg-gray-200 hover:text-gray-900"
+              ? "bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white"
+              : "bg-gray-100 text-gray-600 hover:bg-gray-200 hover:text-gray-900"
               }`}
           >
             <HiXMark className="text-lg" />
@@ -79,6 +79,7 @@ export default function ArticleModal({ post, onClose }: Props) {
               alt={`Article image for ${post.title}`}
               fill
               className="object-cover"
+              loading="lazy"
             />
           </div>
 
@@ -91,8 +92,8 @@ export default function ArticleModal({ post, onClose }: Props) {
 
         <footer
           className={`sticky bottom-0 z-10 px-6 py-4 border-t flex flex-wrap items-center justify-between gap-3 text-sm ${darkMode
-              ? "bg-gray-900 border-gray-800 text-gray-400"
-              : "bg-white border-gray-200 text-gray-600"
+            ? "bg-gray-900 border-gray-800 text-gray-400"
+            : "bg-white border-gray-200 text-gray-600"
             }`}
         >
           <div className="flex items-center gap-3">
