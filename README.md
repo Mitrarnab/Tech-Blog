@@ -20,16 +20,23 @@ The platform supports **article search**, **category filtering**, **dark/light t
 
 ## 📊 Lighthouse Audit Results
 
-Lighthouse audits were conducted using **Chrome DevTools (Production Mode)**.
+Lighthouse audits were conducted using **Chrome DevTools** in **production mode**.
 
-Screenshots are stored in the `/screenshots` directory.
+### Performance
 
-- ✅ Performance
-- ✅ Accessibility
-- ✅ Best Practices
-- ✅ SEO
+![Performance Score](./screenshots/Performance.png)
 
----
+### Accessibility
+
+![Accessibility Score](./screenshots/Accessibility.png)
+
+### Best Practices
+
+![Best Practices Score](./screenshots/BestPractices.png)
+
+### SEO
+
+![SEO Score](./screenshots/SEO.png)
 
 ## 🔍 SEO Strategy
 
