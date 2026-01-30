@@ -20,20 +20,20 @@ export default function Contact() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-14 items-center">
 
                     <div className="space-y-6">
-                        <div className={`text-3xl font-bold ${darkMode ? "text-white" : "text-gray-900"}`}>
+                        <div className={`text-3xl font-bold transition-all duration-300 ${darkMode ? "text-white" : "text-gray-900"}`}>
                             Tech<span className="text-blue-500 font-extrabold">Blog</span>
                         </div>
-                        <h2 className={`text-4xl font-bold leading-tight ${darkMode ? "text-white" : "text-gray-900"}`}>
+                        <h2 className={`text-4xl font-bold leading-tight transition-all duration-300 ${darkMode ? "text-white" : "text-gray-900"}`}>
                             Let's build something <br /> <span className="text-blue-500">exceptional</span> together
                         </h2>
-                        <p className={`text-lg leading-relaxed max-w-xl
+                        <p className={`text-lg leading-relaxed max-w-xl transition-all duration-300
               ${darkMode ? "text-gray-400" : "text-gray-600"}
             `}>
                             I transform complex ideas into fast, scalable, and elegant web experiences. If you'd like to collaborate or discuss frontend development, feel free to get in touch.
                         </p>
                     </div>
                     <div
-                        className={`rounded-2xl p-8 transition-all
+                        className={`rounded-2xl p-8 transition-all duration-300
               ${darkMode
                                 ? "bg-gray-900 border border-gray-800 shadow-[0_0_24px_rgba(0,0,0,0.7)]"
                                 : "bg-white border border-gray-200 shadow-[0_0_24px_#0000001c]"

@@ -8,12 +8,12 @@ export default function Hero() {
 
   return (
     <section className={`bg-gradient-to-t ${darkMode ? " from-gray-950 to-gray-900" : " from-white to-cyan-300"} transition-all py-16 text-center duration-300`}>
-      <h1 className={`text-4xl font-bold mb-4  ${darkMode ? "text-white" : "text-gray-900"} transition-colors duration-300`}>
+      <h1 className={`text-4xl font-bold mb-4  ${darkMode ? "text-white" : "text-gray-900"} transition-all duration-300`}>
         Elevating the Standard of Modern Web Development
       </h1>
-      <p className={` ${darkMode ? "text-gray-300" : "text-gray-600"} max-w-2xl mx-auto transition-colors duration-300`}>
+      <p className={` ${darkMode ? "text-gray-300" : "text-gray-600"} max-w-2xl mx-auto transition-all duration-300`}>
         Welcome to <span
-          className={` font-bold transition-colors
+          className={` font-bold transition-all duration-300
             ${darkMode ? "text-white" : "text-gray-900"}
           `}>
           Tech<span className="font-extrabold text-blue-500">Blog</span>
