@@ -3,10 +3,10 @@
 import { useCallback, useEffect } from "react";
 import Image from "next/image";
 import { useSelector } from "react-redux";
-import type { RootState } from "@/app/store/store";
-import { BlogPost } from "@/app/types/blog";
-import { articleSchema } from "@/app/lib/seoSchemas";
-import { formatDate } from "@/app/lib/formatDate";
+import type { RootState } from "@/store/store";
+import { BlogPost } from "@/types/blog";
+import { articleSchema } from "@/lib/seoSchemas";
+import { formatDate } from "@/lib/formatDate";
 import { HiXMark } from "react-icons/hi2";
 
 interface Props {

@@ -1,4 +1,4 @@
-import { ApiResponse } from "@/app/types/blog";
+import { ApiResponse } from "@/types/blog";
 
 const API_URL = process.env.NEXT_PUBLIC_BLOG_API_URL;
 

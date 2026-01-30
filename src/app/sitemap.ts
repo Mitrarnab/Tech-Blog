@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { fetchBlogs } from "@/app/lib/fetchBlogs";
+import { fetchBlogs } from "@/lib/fetchBlogs";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl =

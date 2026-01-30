@@ -2,7 +2,7 @@
 
 import { useCallback } from "react";
 import { useSelector } from "react-redux";
-import type { RootState } from "@/app/store/store";
+import type { RootState } from "@/store/store";
 import { BiSolidCategory } from "react-icons/bi";
 import { HiChevronDown } from "react-icons/hi";
 
@@ -44,8 +44,8 @@ export default function CategoryFilter({
         value={active}
         onChange={handleChange}
         className={`w-full capitalize appearance-none rounded-full pl-11 pr-11 py-2 text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500/40 ${darkMode
-            ? "bg-gray-900 text-gray-100 border border-gray-700 hover:bg-gray-800 shadow-[0_0_10px_#505050]"
-            : "bg-white text-gray-900 border border-gray-300 hover:bg-gray-50 shadow-[0_0_24px_#0000001c]"
+          ? "bg-gray-900 text-gray-100 border border-gray-700 hover:bg-gray-800 shadow-[0_0_10px_#505050]"
+          : "bg-white text-gray-900 border border-gray-300 hover:bg-gray-50 shadow-[0_0_24px_#0000001c]"
           }`}
         aria-label="Filter articles by category"
       >

@@ -2,8 +2,8 @@
 
 import { useState, useMemo, useCallback } from "react";
 import { useSelector } from "react-redux";
-import type { RootState } from "@/app/store/store";
-import { BlogPost } from "@/app/types/blog";
+import type { RootState } from "@/store/store";
+import { BlogPost } from "@/types/blog";
 
 import SearchBar from "../ui/SearchBar";
 import CategoryFilter from "../ui/CategoryFilter";

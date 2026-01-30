@@ -1,7 +1,7 @@
 "use client";
 
 import { useSelector } from "react-redux";
-import type { RootState } from "@/app/store/store";
+import type { RootState } from "@/store/store";
 import { IconType } from "react-icons";
 
 interface ContactItemProps {
@@ -41,8 +41,8 @@ export default function ContactItem({
         >
             <div
                 className={`h-11 w-11 rounded-full flex items-center justify-center transition-colors ${darkMode
-                        ? `${darkBg} ${darkText} ${hoverBg ?? "group-hover:bg-gray-700 group-hover:text-white"}`
-                        : `${lightBg} ${lightText} ${hoverBg ?? "group-hover:bg-blue-500 group-hover:text-white"}`
+                    ? `${darkBg} ${darkText} ${hoverBg ?? "group-hover:bg-gray-700 group-hover:text-white"}`
+                    : `${lightBg} ${lightText} ${hoverBg ?? "group-hover:bg-blue-500 group-hover:text-white"}`
                     }`}
             >
                 <Icon className="text-lg" />

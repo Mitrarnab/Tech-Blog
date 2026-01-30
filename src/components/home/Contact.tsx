@@ -1,7 +1,7 @@
 "use client";
 
 import { useSelector } from "react-redux";
-import type { RootState } from "@/app/store/store";
+import type { RootState } from "@/store/store";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import ContactItem from "../ui/ContactItem";

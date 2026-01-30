@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata, Viewport } from "next";
-import Providers from "./providers/provider";
+import Providers from "../providers/provider";
 
 export const metadata: Metadata = {
   title: "Tech Blog",

@@ -2,7 +2,7 @@
 
 import { FaSpinner } from "react-icons/fa";
 import { useSelector } from "react-redux";
-import { RootState } from "./store/store";
+import { RootState } from "../store/store";
 
 export default function Loading() {
     const darkMode = useSelector((state: RootState) => state.theme.darkMode);

@@ -1,7 +1,7 @@
 "use client";
 
 import { useSelector } from "react-redux";
-import type { RootState } from "@/app/store/store";
+import type { RootState } from "@/store/store";
 
 export default function Footer() {
   const darkMode = useSelector((state: RootState) => state.theme.darkMode);

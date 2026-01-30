@@ -2,7 +2,7 @@
 
 import { useCallback } from "react";
 import { useSelector } from "react-redux";
-import type { RootState } from "@/app/store/store";
+import type { RootState } from "@/store/store";
 import { HiSearch } from "react-icons/hi";
 
 interface Props {
@@ -32,8 +32,8 @@ export default function SearchBar({ value, onChange }: Props) {
         value={value}
         onChange={handleChange}
         className={`w-full appearance-none rounded-full pl-11 pr-4 py-2 text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500/40 ${darkMode
-            ? "bg-gray-900 text-gray-100 border border-gray-700 placeholder:text-gray-500 hover:bg-gray-800 shadow-[0_0_10px_#505050]"
-            : "bg-white text-gray-900 border border-gray-300 placeholder:text-gray-400 hover:bg-gray-50 shadow-[0_0_24px_#0000001c]"
+          ? "bg-gray-900 text-gray-100 border border-gray-700 placeholder:text-gray-500 hover:bg-gray-800 shadow-[0_0_10px_#505050]"
+          : "bg-white text-gray-900 border border-gray-300 placeholder:text-gray-400 hover:bg-gray-50 shadow-[0_0_24px_#0000001c]"
           }`}
         aria-label="Search articles"
       />

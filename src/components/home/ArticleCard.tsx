@@ -2,10 +2,10 @@
 
 import Image from "next/image";
 import { memo } from "react";
-import { BlogPost } from "@/app/types/blog";
-import { formatDate } from "@/app/lib/formatDate";
+import { BlogPost } from "@/types/blog";
+import { formatDate } from "@/lib/formatDate";
 import { useSelector } from "react-redux";
-import type { RootState } from "@/app/store/store";
+import type { RootState } from "@/store/store";
 import { FiTag } from "react-icons/fi";
 
 interface Props {

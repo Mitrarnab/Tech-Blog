@@ -1,5 +1,5 @@
 // app/lib/seoSchemas.ts
-import { BlogPost } from "@/app/types/blog";
+import { BlogPost } from "@/types/blog";
 
 /**
  * WebSite Schema

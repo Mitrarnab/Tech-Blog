@@ -1,8 +1,8 @@
 "use client";
 
 import { useDispatch, useSelector } from "react-redux";
-import type { RootState } from "@/app/store/store";
-import { toggleTheme } from "@/app/store/themeSlice";
+import type { RootState } from "@/store/store";
+import { toggleTheme } from "@/store/themeSlice";
 
 export default function Header() {
   const dispatch = useDispatch();
