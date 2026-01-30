@@ -9,7 +9,7 @@ export async function fetchBlogs() {
 
   const res = await fetch(
     `${API_URL}?offset=0&amp;limit=10`,
-    { cache: "no-store" }
+    {next: { revalidate: 3600 },  }
   );
 
   if (!res.ok) {
