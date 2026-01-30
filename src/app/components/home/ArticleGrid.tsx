@@ -21,7 +21,6 @@ export default function ArticleGrid({ blogs }: { blogs: BlogPost[] }) {
 
   const categories = useMemo(() => {
     const unique = new Set(blogs.map((b) => b.category));
-    unique.delete("All");
     return ["All", ...Array.from(unique)];
   }, [blogs]);
 
@@ -88,8 +87,7 @@ export default function ArticleGrid({ blogs }: { blogs: BlogPost[] }) {
           </div>
         </div>
         <p className="mb-4 text-sm opacity-70">
-          {filtered.length} result
-          {filtered.length !== 1 && filtered.length !== 0 && "s"} found
+          {filtered.length} result{filtered.length !== 1 && filtered.length !== 0 && "s"} found
         </p>
         {filtered.length === 0 && (
           <p

@@ -17,12 +17,12 @@ export default function Loading() {
         >
             <FaSpinner
                 className={`text-4xl animate-spin ${darkMode
-                        ? "text-blue-400 drop-shadow-[0_0_10px_rgba(96,165,250,0.6)]"
-                        : "text-blue-500"
+                    ? "text-blue-400 drop-shadow-[0_0_10px_rgba(96,165,250,0.6)]"
+                    : "text-blue-500"
                     }`}
             />
             <p className={`text-sm tracking-wide ${darkMode ? "text-gray-400" : "text-gray-600"}`}>
-                Loading articles...
+                Loading <span className="font-bold">Tech<span className="font-extrabold text-blue-500">Blog</span></span>...
             </p>
         </div>
     );

@@ -46,16 +46,17 @@ const ArticleCard = memo(function ArticleCard({ post, onClick }: Props) {
 
       <div className="p-4 flex flex-col justify-between flex-1">
         {post.category && post.category !== "All" && (
-          <div className="flex items-end gap-1.5 text-xl mb-2"> <FiTag className="" /> <span
-            className={`capitalize w-fi px-3 py-1 text-xs font-semibold rounded-full
+          <div className="flex items-end gap-1.5 text-xl mb-2">
+            <FiTag className="" /> <span
+              className={`capitalize w-fi px-3 py-1 text-xs font-semibold rounded-full
           ${darkMode
-                ? "bg-blue-600 text-white"
-                : "bg-blue-100 text-blue-700"
-              }
+                  ? "bg-blue-600 text-white"
+                  : "bg-blue-100 text-blue-700"
+                }
         `}
-          >
-            {post.category}
-          </span>
+            >
+              {post.category}
+            </span>
           </div>
         )}
 
